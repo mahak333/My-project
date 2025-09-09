@@ -6,7 +6,7 @@ Class Calculator{
     int num1=sc.nextInt();
     int num2=sc.nextInt();
     System.out.println("Enter the operator:");
-    int operator=sc.next();
+    String operator=sc.nextLine();
     switch(operator){
       case '+':
         Add(num1,num2);
